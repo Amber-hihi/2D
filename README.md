@@ -26,8 +26,10 @@ chmod +x start-server.sh
 Open:
 
 ```text
-http://localhost:8080/tests/test-20m.html
+http://localhost:8080/tests/auto-test.html
 ```
+
+The automatic test runs 5M, 10M, and 20M point-cloud datasets through static, rotate, and zoom phases, then downloads a CSV.
 
 Before recording results, check `chrome://gpu` and confirm WebGL/WebGL2 are hardware accelerated, not SwiftShader.
 
